@@ -87,4 +87,12 @@ nav ul.hide {
     display:none;
 }
 
+li:hover {
+    background-color:yellow;
+}
+
+.banner {
+    background-color:lightblue;
+    text-align:center;
+}
 
