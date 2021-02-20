@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/preston.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="banner"><p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p></div>
+    <header>
+        <img class="logo" src="./images/logo.png" alt="logo" height="65px" width="65px">
+        <div class="title">
+            <h1>The Weather Site</h1>
+            <h3 class="motto">Weather predictions at your fingertips</h3>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href=>Home</a></li>
+            <li><a href=>Preston</a></li>
+            <li><a href=>Soda Springs</a></li>
+            <li><a href=>Fish Haven</a></li>
+            <li><a href=>Storm Center</a></li>
+            <li><a href="./lesson-7\lazy-load.html">Gallery</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <h1>Preston Idaho</h1>
+        <div class="summary">weather summary</div>
+        <div class="forecast">5 Day Forecast</div>
+        <div class="article">Article</div>
+        <div class="contact">Contact Information</div>
+    </main>
+    <footer>
+        <p>@ The Weather Site |Attributions| Derek Arima</p>
+        <p id="date"></p>
+    </footer>
+    <script src="./js/preston.js"></script>
+</body>
