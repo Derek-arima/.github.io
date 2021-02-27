@@ -1,0 +1,31 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+#t1 tr:nth-child(even) {
+    background-color:rgb(220, 253, 242);
+}
+#t1 tr:nth-child(odd) {
+    background-color:rgb(240, 240, 240);
+}
+#t1 tr:nth-child(2) {
+    background-color:rgb(63, 118, 155);
+    color:white;
+}
+
+#t1 tr:nth-child(1) {
+    background-color:rgb(132, 211, 214);
+}
+#t1 tr:nth-child(9) {
+    background-color:rgb(132, 211, 214);
+}
+
+#goal {
+    background-color: rgb(63, 118, 155);
+    color:white;
+}
