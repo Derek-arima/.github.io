@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/preston.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="banner"><p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p></div>
+    <header>
+        <img class="logo" src="./images-copy/logo.png" alt="logo" height="65px" width="65px">
+        <div class="title">
+            <h1>The Weather Site</h1>
+            <h3 class="motto">Weather predictions at your fingertips</h3>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href=>Home</a></li>
+            <li><a href=>Preston</a></li>
+            <li><a href=>Soda Springs</a></li>
+            <li><a href=>Fish Haven</a></li>
+            <li><a href=>Storm Center</a></li>
+            <li><a href=>Gallery</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <h1>Weather Gallery</h1>
+        <div class="grid">
+            <img class="lazy1" src ="https://via.placeholder.com/300x400" data-src ="./images/clouds.jpg" width="250" height="250" alt="cloud">
+            <img class="lazy2" src ="https://via.placeholder.com/300x400" data-src ="./images/hills.jpg" width="250" height="250" alt="hills">
+            <img class="lazy3" src ="https://via.placeholder.com/300x400" data-src ="./images/idaho.jpg" width="250" height="250" alt="idaho">
+            <img class="lazy4" src ="https://via.placeholder.com/300x400" data-src ="./images/lightning.jpg" width="250" height="250" alt="lightning">
+            <img class="lazy5" src ="https://via.placeholder.com/300x400" data-src ="./images/mountain.jpg" width="250" height="250" alt="mountain">
+            <img class="lazy6" src ="https://via.placeholder.com/300x400" data-src ="./images/rain.jpg" width="250" height="250" alt="rain">
+            <img class="lazy7" src ="https://via.placeholder.com/300x400" data-src ="./images/snow.jpg" width="250" height="250" alt="snow">
+            <img class="lazy8" src ="https://via.placeholder.com/300x400" data-src ="./images/rainbow.jpg" width="250" height="250" alt="temple">
+            <img class="lazy9" src ="https://via.placeholder.com/300x400" data-src ="./images/cyclone.jpg" width="250" height="250" alt="temple">
+        </div>     
+    </main>
+    <footer>
+        <p>@ The Weather Site |Attributions| Derek Arima</p>
+        <p id="date"></p>
+    </footer>
+    <script src="./js/preston.js"></script>
+    <script src="./js/gallery-7.js"></script>
+</body>

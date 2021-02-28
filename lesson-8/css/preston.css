@@ -1,0 +1,143 @@
+h1 {
+    font-size:1.5em;
+}
+
+header{
+    background-color:lightgreen;
+    text-align:center;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+body {
+    text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    background-color:green;
+    position:relative;
+    bottom:20px;
+}
+li {
+    display: inline;
+}
+
+nav a {
+    color: black;
+    font-size: 1.1em;
+    padding: 20px;
+}
+
+div {
+    text-align:left;
+    padding:20px;
+}
+
+.summary {
+    background-color:lightgray;
+    margin:5px;
+}
+
+.forecast {
+    background-color:lightgray;
+    margin:5px;
+}
+
+.article {
+    background-color:lightgray;
+    margin:5px;
+}
+
+.contact {
+    background-color:lightgray;
+    margin:5px;
+}
+
+.logo {
+    float:left;
+    padding-top:15px;
+    position:relative;
+    left:20px;
+}
+
+footer{
+    background-color:green;
+    padding:5px;
+}
+
+.title {
+    text-align:center;
+    position:relative;
+    right:40px;
+    padding:0px;
+}
+
+.motto {
+    margin-top:-10px;
+}
+
+.navigation li {
+    display:none;
+}
+li a {
+    display:block;
+}
+nav ul.hide {
+    display:none;
+}
+
+li:hover {
+    background-color:yellow;
+}
+
+.banner {
+    background-color:lightblue;
+    text-align:center;
+}
+.lazy1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+.lazy2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+.lazy3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+.lazy4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    
+}
+.lazy5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    
+}
+.lazy6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    
+}
+.lazy7 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    
+}
+.lazy8 {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    
+}
+.lazy9 {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    
+}
+

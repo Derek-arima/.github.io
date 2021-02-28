@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/preston.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="banner"><p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p></div>
+    <header>
+        <img class="logo" src="./images-copy/logo.png" alt="logo" height="65px" width="65px">
+        <div class="title">
+            <h1>The Weather Site</h1>
+            <h3 class="motto">Weather predictions at your fingertips</h3>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href=>Home</a></li>
+            <li><a href=>Preston</a></li>
+            <li><a href=>Soda Springs</a></li>
+            <li><a href=>Fish Haven</a></li>
+            <li><a href=>Storm Center</a></li>
+            <li><a href="\lesson-8\gallery-7.html">Gallery</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <h1>Storm Center</h1>
+        <form action="\lesson-8\thanks.html">
+            <label for="fname">Full name:</label>
+            <input type="text" id="fullname" minlength="5">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@example.com">
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" required><br><br>
+            <label for="zip">Zip code:</label>
+            <input type="number" id="zip" required>
+            <label for="date">Storm date:</label>
+            <input type="date" id="date">
+            <label for="type">Storm type:</label>
+            <input list="types" name="stormtype" id="stormtype">
+            <datalist id="types">
+                <option>Flash Flood</option>
+                <option>Hail</option>
+                <option>Hurricane</option>
+                <option>Thunderstorm</option>
+                <option>Tornado</option>
+            </datalist><br><br>
+            <label for="severity">Storm severity:</label>
+            <input type="range" id="severity" value="1" min="1" max="10"
+            step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="rating">1</span>
+            <label for="region">Storm region:</label>
+            <input name="stormregion" list="stormregions">
+                <datalist id="stormregions">
+                    <option>Preston</option>
+                    <option>Soda Springs</option>
+                    <option>Fish Haven</option>
+                </datalist>
+            <label for="indanger">In-danger level:</label>
+            <input type="radio" name="danger" value="yes"> Yes
+            <input type="radio" name="danger" value="maybe"> Maybe
+            <input type="radio" name="danger" value="no"> No <br><br>
+            <label for="comments">Comments</label><br>
+            <textarea id="comments" rows="4" cols="50">
+            </textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="selected"></div>
+    </main>
+    <footer>
+        <p>@ The Weather Site |Attributions| Derek Arima</p>
+        <p id="date"></p>
+    </footer>
+    <script src="./js/stormcenter.js"></script>
+</body>
