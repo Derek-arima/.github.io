@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/preston.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="banner"><p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p></div>
+    <header>
+        <img class="logo" src="./images/logo.png" alt="logo" height="65px" width="65px">
+        <div class="title">
+            <h1>The Weather Site</h1>
+            <h3 class="motto">Weather predictions at your fingertips</h3>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href=>Home</a></li>
+            <li><a href=>Preston</a></li>
+            <li><a href=>Soda Springs</a></li>
+            <li><a href=>Fish Haven</a></li>
+            <li><a href=>Storm Center</a></li>
+            <li><a href=>Gallery</a></li>
+        </ul> 
+    </nav>
+    <main class="grid">
+            <div class="preston">
+                <h2 id="city1" class="cities"></h2>
+                <p id="motto1" class="motto"></p>
+                <P class="founded"><b>Year Founded: </b><span id='found1' class="founded"></span></p>
+                <p class="pop"><b>Population: </b><span id='pop1' class='pop'></span></p>
+                <p class="rain"><b>Annual Rain Fall: </b><span id="rain1" class="rain"></span></p>
+            </div>
+                <img class="imgpreston" src="images/preston.jpg" width="200px" height="200px">
+            <div class="sodasprings">
+                <h2 id="city2" class="cities"></h2>
+                <p id="motto2" class="motto"></p>
+                <P class="founded"><b>Year Founded: </b><span id='found2' class="founded"></span></p>
+                <p class="pop"><b>Population: </b><span id='pop2' class='pop'></span></p>
+                <p class="rain"><b>Annual Rain Fall: </b><span id="rain2" class="rain"></span></p>
+            </div>
+            <img class="imgsoda" src="images/sodasprings.jpg" width="200px" height="200px">
+            <div class="fishhaven">
+                <h2 id="city3" class="cities"></h2>
+                <p id="motto3" class="motto"></p>
+                <P class="founded"><b>Year Founded: </b><span id='found3' class="founded"></span></p>
+                <p class="pop"><b>Population: </b><span id='pop3' class='pop'></span></p>
+                <p class="rain"><b>Annual Rain Fall: </b><span id="rain3" class="rain"></span></p>
+            </div>
+            <img class="imgfish" src="images/fishhaven.jpg" width="200px" height="200px">
+    </main>
+    <footer>
+        <p>@ The Weather Site |Attributions| Derek Arima</p>
+        <p id="date"></p>
+    </footer>
+    <script src="./js/preston.js"></script>
+    <script src="./js/info.js"></script>
+</body>

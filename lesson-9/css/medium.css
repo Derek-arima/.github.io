@@ -1,0 +1,61 @@
+@media only screen and (min-width: 40em){
+
+h1 {
+    font-size:2em;
+}
+main{
+    margin-left:200px;
+    margin-right:200px;
+}
+
+footer {
+    background-color:green;
+    max-width:1300px;
+    padding:5px;
+}
+.logo{
+    position:relative;
+    left:20px;
+}
+nav button{
+    display:none;
+}
+nav ul.hide {
+    display:flex;
+    justify-content:center;
+}
+.grid {
+    display:grid;
+    grid-gap: .1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: .1em;
+}
+.preston {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.imgpreston {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.sodasprings {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.imgsoda {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.fishhaven {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.imgfish {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.title {
+    text-align:center;
+}
+}
